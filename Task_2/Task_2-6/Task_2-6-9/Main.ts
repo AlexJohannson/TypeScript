@@ -11,7 +11,7 @@ const values: string[] = ['6', '7', '8', '9', '10', 'ace', 'jack', 'queen', 'kin
 const cards: ICard[] = [];
 for (const suit of suits) {
     for (const value of values) {
-        const card = {cardSuit: suit, value: value, color: ''};
+        const card: ICard = {cardSuit: suit, value: value, color: ''};
         if (suit === 'heart' || suit === 'diamond') {
             card.color = 'red';
         } else {
