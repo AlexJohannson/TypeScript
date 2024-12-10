@@ -1,6 +1,6 @@
-function roundSquare(radius: number): number {
+function roundSquare1(radius: number): number {
     return Math.PI * radius * radius;
 }
 
-roundSquare(2);
-console.log(roundSquare(2));
+roundSquare1(2);
+console.log(roundSquare1(2));

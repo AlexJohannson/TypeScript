@@ -1,4 +1,4 @@
-function list(text: string, counter: number): void {
+function list2(text: string, counter: number): void {
     document.write(`<ul>`);
     for (let i = 0; i < counter; i++) {
         document.write(`<li>${text}</li>`);
@@ -6,4 +6,4 @@ function list(text: string, counter: number): void {
     document.write(`</ul>`);
 }
 
-list('Frontend', 5);
+list2('Frontend', 5);

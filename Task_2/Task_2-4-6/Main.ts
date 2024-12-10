@@ -1,4 +1,4 @@
-function list(text: string): void {
+function list1(text: string): void {
     document.write(`
                    <ul>
                      <li>${text}</li>
@@ -8,4 +8,4 @@ function list(text: string): void {
                   `)
 }
 
-list('JavaScript');
+list1('JavaScript');
