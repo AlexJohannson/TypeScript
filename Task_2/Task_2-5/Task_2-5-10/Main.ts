@@ -1,6 +1,6 @@
 let arr: number[] = [12, 45, 990, 2, 54, 8377, 23, -12, 45, -76];
 
-let minimumNumber = (numbers: number[]) => {
+let minimumNumber = (numbers: number[]): number => {
     let min: number = numbers[0];
     for (let i = 0; i < numbers.length; i++) {
         let number = numbers[i];
