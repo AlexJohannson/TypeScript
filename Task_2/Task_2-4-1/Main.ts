@@ -4,4 +4,4 @@ function square1(aNun: number, bNun: number): number {
     return result;
 }
 
-square(12, 43);
+square1(12, 43);
